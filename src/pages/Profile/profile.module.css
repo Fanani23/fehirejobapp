@@ -1,0 +1,439 @@
+.containerProfile {
+  width: 100%;
+  height: auto;
+  font-family: sans-serif;
+  background-color: #e5e5e5;
+  font-family: sans-serif;
+}
+.containerProfileNavBasis {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.containerProfileNav {
+  width: 90%;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.containerPNLogo {
+  margin: auto 0 auto 0;
+}
+.containerPNButton {
+  margin: auto 0 auto 0;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.PNButtonLeft {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: transparent;
+}
+.PNButtonCenter {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: transparent;
+}
+.PNButtonRight {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: transparent;
+}
+.containerBodyBasis {
+  width: 100%;
+  position: relative;
+}
+.BSFieldTop {
+  width: 100%;
+  height: 300px;
+  background-color: #5e50a1;
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.BSFieldLeft {
+  width: 35%;
+  margin: 60px auto auto auto;
+}
+.BSFieldLeftValue {
+  width: 80%;
+  background-color: #ffffff;
+  margin: auto auto auto auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.BSFLVImg {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto 20px auto;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #5e50a1;
+  border-radius: 50%;
+}
+.BSFLVName {
+  width: auto;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f2a36;
+  margin: auto auto auto 30px;
+}
+.BSFLVPos {
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1f2a36;
+  margin: auto auto auto 30px;
+}
+.BSFLVLocation {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin: auto auto auto 30px;
+  gap: 5px;
+}
+.BSFLVLocationImg {
+  width: 16px;
+  height: 16px;
+}
+.BSFLVLocationText {
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9ea0a5;
+  margin: auto auto 0 auto;
+}
+.BSFLVJob {
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9ea0a5;
+  margin: auto auto auto 30px;
+}
+.BSFLVDesc {
+  width: 85%;
+  display: flex;
+  justify-content: left;
+  margin: auto 30px auto 30px;
+}
+.BSFLVDescValue {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #9ea0a5;
+}
+.BSFLVSkill {
+  width: auto;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f2a36;
+  margin: auto auto auto 30px;
+}
+.BSFLVSkillBasis {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: auto auto auto 30px;
+}
+.BSFLVSkillValue {
+  width: auto;
+  height: 28px;
+  background-color: #fbb01799;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  margin: auto auto auto auto;
+  padding: 5px;
+}
+.BSFLVMail {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 30px 30px auto 30px;
+}
+.BSFLVMailImg {
+  width: 24px;
+  height: 24px;
+}
+.BSFLVMailText {
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9ea0a5;
+  margin: auto auto 0 0;
+}
+.BSFLVIg {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: auto 30px auto 30px;
+}
+.BSFLVIgImg {
+  width: 24px;
+  height: 24px;
+}
+.BSFLVIgText {
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9ea0a5;
+  margin: auto auto 0 0;
+}
+.BSFLVGithub {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: auto 30px auto 30px;
+}
+.BSFLVGithubImg {
+  width: 24px;
+  height: 24px;
+}
+.BSFLVGithubText {
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9ea0a5;
+  margin: auto auto 0 0;
+}
+.BSFLVGitlab {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: auto 30px auto 30px;
+}
+.BSFLVGitlabImg {
+  width: 24px;
+  height: 24px;
+}
+.BSFLVGitlabText {
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9ea0a5;
+  margin: auto auto 0 0;
+}
+.BSFLVButton {
+  width: auto;
+  margin: 30px 30px 30px 30px;
+}
+.BSFLVButtonValue {
+  width: 100%;
+  height: 40px;
+  border: transparent;
+  background-color: #5e50a1;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.BSFieldRight {
+  width: 65%;
+  margin: 60px auto auto auto;
+}
+.BSFieldRightValue {
+  width: 80%;
+  background-color: #ffffff;
+  margin: auto auto auto auto;
+  border-radius: 5px;
+}
+.containerBSFRVPort {
+  width: auto;
+  margin: auto auto 15px auto;
+}
+.BSFRVPorto {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.BSFRVPortoText {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f2a36;
+  margin: 30px auto 0 30px;
+}
+.BSFRVPortoImg {
+  width: 106px;
+  margin: auto auto auto 30px;
+}
+.BSFRVPortoBasis {
+  width: auto;
+  margin: 30px 30px 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.BSFRVPortoValue {
+  width: 200px;
+  height: 140px;
+}
+.containerBSFRVExp {
+  width: auto;
+  margin: auto auto 15px auto;
+}
+.BSFRVExp {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.BSFRVExpText {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f2a36;
+  margin: 30px auto 0 30px;
+}
+.BSFRVExpImg {
+  width: 106px;
+  margin: auto auto auto 30px;
+}
+.BSFRVExpBasis {
+  width: auto;
+  margin: 30px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.BSFRVExpValue {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 30px 30px 30px 30px;
+}
+.BSFRVExpValueImg {
+  width: 70px;
+  height: 70px;
+}
+.BSFRVExpValueInfo {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.BSFRVEVIJob {
+  width: auto;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2a36;
+  text-align: left;
+  margin-bottom: 0;
+}
+.BSFRVEVIPlace {
+  width: auto;
+  font-size: 18px;
+  font-weight: 400;
+  color: #46505c;
+  text-align: left;
+  margin-bottom: 0;
+}
+.BSFRVEVIDate {
+  width: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 0;
+}
+.BSFRVEVIDateLeft {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9ea0a5;
+  margin-bottom: 0;
+}
+.BSFRVEVIDateCenter {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9ea0a5;
+  margin-bottom: 0;
+}
+.BSFRVEVIDateRight {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9ea0a5;
+  margin-bottom: 0;
+}
+.BSFRVEVIDesc {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1f2a36;
+  text-align: left;
+}
+.containerProfileFooter {
+  width: 100%;
+  height: 380px;
+  margin-top: 5%;
+  background-color: #5e50a1;
+}
+.containerPFBasis {
+  width: 85%;
+  margin: auto auto auto auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.PFTop {
+  margin-top: 30px;
+}
+.PFCenter {
+  width: 25%;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.PFBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.PFBLeft {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.PFBRight {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.BodyProfile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1;
+  position: relative;
+}
+.PhotoImg {
+  width: 32px;
+  height: 32px;
+  border: transparent;
+  border-radius: 50%;
+}

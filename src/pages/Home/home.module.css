@@ -1,0 +1,244 @@
+.containerHome {
+  width: 100%;
+  height: auto;
+  font-family: sans-serif;
+  background-color: #e5e5e5;
+}
+.containerHomeNavBasis {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.containerHomeNav {
+  width: 90%;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.containerHNLogo {
+  margin: auto 0 auto 0;
+}
+.containerHNButton {
+  margin: auto 0 auto 0;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.HNButtonLeft {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: transparent;
+}
+.HNButtonCenter {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: transparent;
+}
+.HNButtonRight {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: transparent;
+}
+.containerHomeNav2 {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: #5e50a1;
+}
+.HN2Basis {
+  width: 90%;
+  margin: auto auto auto auto;
+  background-color: transparent;
+}
+.HN2Text {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.containerHomeBody {
+  width: 80%;
+  margin: auto auto auto auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.HBTop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.HBTopSearch {
+  width: 70%;
+  height: 60px;
+  border: transparent;
+  border-radius: 4px;
+  margin: 5% auto auto auto;
+}
+.HBTopSelect {
+  width: 14%;
+  height: 60px;
+  border: transparent;
+  border-radius: 4px;
+  margin: 5% auto auto auto;
+}
+.HBTopSelectValue {
+  width: 100%;
+  height: 60px;
+  border: transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #9ea0a5;
+}
+.HBTopButton {
+  width: 14%;
+  height: 60px;
+  border: transparent;
+  border-radius: 4px;
+  background-color: #5e50a1;
+  margin: 5% auto auto auto;
+}
+.HBTopButtonValue {
+  width: 100%;
+  height: 60px;
+  border: transparent;
+  border-radius: 4px;
+  background-color: #5e50a1;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.HBBottom {
+  width: 100%;
+  background-color: #ffffff;
+  margin: auto auto 40px auto;
+}
+.HBBottomBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px auto 30px 30px;
+}
+.HBBBImg {
+  width: 100px;
+  height: 100px;
+}
+.HBBBInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: -600px;
+  gap: 5px;
+}
+.HBBBInfoName {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0;
+}
+.HBBBInfoPos {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9ea0a5;
+  margin-bottom: 0;
+}
+.HBBBInfoMap {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.HBBBInfoMapImg {
+  width: 16px;
+  height: 16px;
+}
+.HBBBInfoMapText {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9ea0a5;
+}
+.HBBBInfoSkill {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.HBBBInfoSkillValue {
+  width: auto;
+  height: 28px;
+  background-color: #fbb01799;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  margin: auto auto auto auto;
+  padding: 5px;
+}
+.HBBBButton {
+  width: auto;
+  height: 58px;
+}
+.HBBBButtonValue {
+  border: transparent;
+  background-color: #5e50a1;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 30px 30px auto auto;
+  width: 120px;
+  height: 58px;
+}
+.containerHomeFooter {
+  width: 100%;
+  height: 380px;
+  background-color: #5e50a1;
+}
+.containerHFBasis {
+  width: 85%;
+  margin: auto auto auto auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.HFTop {
+  margin-top: 30px;
+}
+.HFCenter {
+  width: 25%;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.HFBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.HFBLeft {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.HFBRight {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.PhotoImg {
+  width: 32px;
+  height: 32px;
+  border: transparent;
+  border-radius: 50%;
+}

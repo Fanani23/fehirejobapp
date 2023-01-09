@@ -1,0 +1,73 @@
+.containerReset {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif;
+  background-color: #e5e5e5;
+}
+.containerResetLeft {
+  width: 50%;
+}
+.resetLeft {
+  width: 90%;
+  margin: 40px 40px 40px 40px;
+}
+.resetLeftImg {
+  width: 650px;
+  height: 822px;
+  margin-bottom: 40px;
+}
+.containerResetRight {
+  width: 50%;
+  height: 100vh;
+}
+.resetRight {
+  width: 80%;
+  margin: 40px auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ResetRTop {
+  width: auto;
+  font-size: 28px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 20%;
+}
+.ResetRTop2 {
+  width: auto;
+  font-size: 18px;
+  font-weight: 400;
+  color: #46505c;
+}
+.ResetRCenter {
+  width: 100%;
+  margin-top: 10%;
+}
+.ResetRCForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ResetRCFormLabel {
+  color: #9ea0a5;
+  font-size: 12px;
+  font-weight: 400;
+}
+.ResetRCButton {
+  width: 100%;
+  margin-top: 2%;
+}
+.ResetRCButtonVal {
+  width: 100%;
+  height: 40px;
+  background-color: #fbb017;
+  border: transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}

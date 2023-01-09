@@ -1,0 +1,312 @@
+.containerLanding {
+  width: 100%;
+  height: auto;
+  font-family: sans-serif;
+}
+.containerLandingNav {
+  width: 90%;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.containerLNLogo {
+  margin: auto 0 auto 0;
+}
+.containerLNButton {
+  margin: auto 0 auto 0;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.LNButtonLeft {
+  width: 160px;
+  height: 40px;
+  padding: 1px auto 1px auto;
+  background-color: transparent;
+  color: #5e50a1;
+  border: 1px solid #5e50a1;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.LNButtonRight {
+  width: 160px;
+  height: 40px;
+  padding: 1px auto 1px auto;
+  background-color: #5e50a1;
+  color: #ffffff;
+  border: transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.containerLandingBody {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 0 auto 40px auto;
+}
+.containerLBTop {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LBTopLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: auto auto auto auto;
+}
+.LBTLTop {
+  width: 70%;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+  margin: auto auto auto auto;
+}
+.LBTLCenter {
+  width: 70%;
+  font-size: 16px;
+  font-weight: 400;
+  margin: auto auto auto auto;
+}
+.LBTLBottom {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #5e50a1;
+  color: #ffffff;
+  border: 1px solid #5e50a1;
+  border-radius: 4px;
+  padding: 2px auto 2px auto;
+  margin: 20px auto auto 90px;
+}
+.LBTopRight {
+  width: 50%;
+  margin: auto auto auto auto;
+}
+.LBTRBasisImg {
+  width: 70%;
+  height: 70%;
+  margin: auto auto auto auto;
+}
+.LBTRImg {
+  width: 490px;
+  height: 490px;
+  margin: auto auto auto auto;
+}
+.containerLBCenter {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LBCenterLeft {
+  width: 50%;
+}
+.LBCLBasisImg {
+  width: 70%;
+  height: 70%;
+  margin: auto auto auto auto;
+}
+.LBCLImg {
+  width: 490px;
+  height: 490px;
+  margin: auto auto auto auto;
+}
+.LBCenterRight {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto auto auto auto;
+}
+.LBCRTop {
+  width: 85%;
+  margin: auto auto auto auto;
+  font-size: 36px;
+  font-weight: 600;
+}
+.LBCRBottom {
+  width: 60%;
+  margin: auto auto auto 45px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.LBCRBottomValue {
+  display: flex;
+  flex-direction: row;
+  margin: auto 0 auto 0;
+  gap: 10px;
+}
+.LBCRBVImg {
+  width: 24px;
+  height: 24px;
+}
+.LBCRBVText {
+  padding: auto auto auto auto;
+}
+.containerLBCenter2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LBCenter2Left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto auto auto auto;
+}
+.LBC2LTop {
+  width: auto;
+  height: auto;
+  margin: auto auto auto 90px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.LBC2LCenter {
+  width: 80%;
+  height: auto;
+  margin: auto auto auto 90px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.LBC2LBottom {
+  width: 80%;
+  height: auto;
+  margin: auto auto auto 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LBC2LBLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.LBC2LBLeftValue {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.LBC2LBLVImg {
+  width: 24px;
+  height: 24px;
+}
+.LBC2LBLVText {
+  font-size: 16px;
+  font-weight: 400;
+}
+.LBC2LBRightValue {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.LBC2LBRVImg {
+  width: 24px;
+  height: 24px;
+}
+.LBC2LBRVText {
+  font-size: 16px;
+  font-weight: 400;
+}
+.LBCenter2Right {
+  width: 50%;
+}
+.LBC2RBasisImg {
+  width: 70%;
+  height: 70%;
+  margin: auto auto auto auto;
+}
+.LBC2RImg {
+  width: 490px;
+  height: 490px;
+  margin: auto auto auto auto;
+}
+.containerLBCenter3 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e5e5e5;
+}
+.LBC3Top {
+  width: 40%;
+  margin: auto auto auto 400px;
+}
+.LBC3TopText {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 2px auto 2px auto;
+}
+.LBC3Bottom {
+  width: 80%;
+  margin: auto auto auto 80px;
+}
+.LBC3BottomImg {
+  width: 1080px;
+  height: 400px;
+}
+.containerLBBottom {
+  width: 100%;
+  height: 380px;
+}
+.LBBottom {
+  width: 90%;
+  margin: auto auto auto 40px;
+}
+.containerLandingFooter {
+  width: 100%;
+  height: 380px;
+  background-color: #5e50a1;
+}
+.containerLFBasis {
+  width: 85%;
+  margin: auto auto auto auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.LFTop {
+  margin-top: 30px;
+}
+.LFCenter {
+  width: 25%;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.LFBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LFBLeft {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.LFBRight {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}

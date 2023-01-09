@@ -1,0 +1,73 @@
+.containerVerification {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif;
+  background-color: #e5e5e5;
+}
+.containerVerificationLeft {
+  width: 50%;
+}
+.verificationLeft {
+  width: 90%;
+  margin: 40px 40px 40px 40px;
+}
+.verificationLeftImg {
+  width: 650px;
+  height: 822px;
+  margin-bottom: 40px;
+}
+.containerVerificationRight {
+  width: 50%;
+  height: 100vh;
+}
+.verificationRight {
+  width: 80%;
+  margin: 40px auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.VRTop {
+  width: auto;
+  font-size: 28px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 30%;
+}
+.VRTop2 {
+  width: auto;
+  font-size: 18px;
+  font-weight: 400;
+  color: #46505c;
+}
+.VRCenter {
+  width: 100%;
+  margin-top: 10%;
+}
+.VRCForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.VRCFormLabel {
+  color: #9ea0a5;
+  font-size: 12px;
+  font-weight: 400;
+}
+.VRCButton {
+  width: 100%;
+  margin-top: 2%;
+}
+.VRCButtonVal {
+  width: 100%;
+  height: 40px;
+  background-color: #fbb017;
+  border: transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
