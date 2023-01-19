@@ -5,7 +5,7 @@ export const registerEmployee = (data, navigate) => async (dispatch) => {
   try {
     dispatch({ type: "EMPLOYEE_REGISTER_PENDING" });
     const res = await axios.post(
-      `http://localhost:3005/auth/register/employee`,
+      `${process.env.REACT_APP_BUILD_API}/auth/register/employee`,
       data
     );
     const employee = res.data.data;

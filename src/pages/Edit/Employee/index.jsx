@@ -81,9 +81,9 @@ const EditEmployee = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3005/auth/profile`;
-    let url2 = `http://localhost:3005/experience`;
-    let url3 = `http://localhost:3005/portofolio`;
+    let url = `${process.env.REACT_APP_BUILD_API}/auth/profile`;
+    let url2 = `${process.env.REACT_APP_BUILD_API}/experience`;
+    let url3 = `${process.env.REACT_APP_BUILD_API}/portofolio`;
     getProfile(url);
     getExperience(url2);
     getPortofolio(url3);
@@ -109,7 +109,7 @@ const EditEmployee = () => {
       formData.append("description", description);
       formData.append("photo", photo);
       await axios.put(
-        `http://localhost:3005/auth/update-employee`,
+        `${process.env.REACT_APP_BUILD_API}/auth/update-employee`,
         formData,
         auth,
         {
@@ -132,7 +132,7 @@ const EditEmployee = () => {
     };
     try {
       const createSkill = await axios.post(
-        `http://localhost:3005/skill/add`,
+        `${process.env.REACT_APP_BUILD_API}/skill/add`,
         formSkill,
         auth
       );
@@ -155,7 +155,7 @@ const EditEmployee = () => {
     };
     try {
       const createExp = await axios.post(
-        `http://localhost:3005/experience/add`,
+        `${process.env.REACT_APP_BUILD_API}/experience/add`,
         formExp,
         auth
       );
@@ -170,7 +170,10 @@ const EditEmployee = () => {
 
   const handleDeleteExp = async (delete_id) => {
     try {
-      await axios.delete(`http://localhost:3005/experience/${delete_id}`, auth);
+      await axios.delete(
+        `${process.env.REACT_APP_BUILD_API}/experience/${delete_id}`,
+        auth
+      );
       console.log("Success delete experience");
       Swal.fire("Success", "Success delete experience", "success");
       window.location.reload(false);
@@ -194,7 +197,7 @@ const EditEmployee = () => {
       formPort.append("description", porto_description);
       formPort.append("photo", porto_photo);
       const createPort = await axios.post(
-        `http://localhost:3005/portofolio/add`,
+        `${process.env.REACT_APP_BUILD_API}/portofolio/add`,
         formPort,
         auth,
         {
@@ -212,7 +215,10 @@ const EditEmployee = () => {
 
   const handleDeletePorto = async (delete_id) => {
     try {
-      await axios.delete(`http://localhost:3005/portofolio/${delete_id}`, auth);
+      await axios.delete(
+        `${process.env.REACT_APP_BUILD_API}/portofolio/${delete_id}`,
+        auth
+      );
       console.log("Success delete portfolio");
       Swal.fire("Success", "Success delete portfolio", "success");
       window.location.reload(false);

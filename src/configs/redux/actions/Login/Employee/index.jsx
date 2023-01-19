@@ -5,7 +5,10 @@ export const loginEmployee = (data, navigate) => async (dispatch) => {
   try {
     console.log(data);
     dispatch({ type: "EMPLOYEE_LOGIN_PENDING" });
-    const res = await axios.post(`http://localhost:3005/auth/login`, data);
+    const res = await axios.post(
+      `${process.env.REACT_APP_BUILD_API}/auth/login`,
+      data
+    );
     const employee = res.data.data;
     console.log(employee, "data employee");
     const token = employee.token;

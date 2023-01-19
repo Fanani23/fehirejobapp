@@ -47,7 +47,7 @@ const EditCompany = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3005/auth/profile`;
+    let url = `${process.env.REACT_APP_BUILD_API}/auth/profile`;
     getProfile(url);
   }, []);
 
@@ -74,7 +74,7 @@ const EditCompany = () => {
       formData.append("linkedin", linkedin);
       formData.append("photo", photo);
       await axios.put(
-        `http://localhost:3005/auth/update-company`,
+        `${process.env.REACT_APP_BUILD_API}/auth/update-company`,
         formData,
         auth,
         {

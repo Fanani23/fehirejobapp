@@ -5,7 +5,10 @@ export const loginCompany = (data, navigate) => async (dispatch) => {
   try {
     console.log(data);
     dispatch({ type: "COMPANY_LOGIN_PENDING" });
-    const res = await axios.post(`http://localhost:3005/auth/login`, data);
+    const res = await axios.post(
+      `${process.env.REACT_APP_BUILD_API}/auth/login`,
+      data
+    );
     const company = res.data.data;
     console.log(company, "data company");
     const token = company.token;

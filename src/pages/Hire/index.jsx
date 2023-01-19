@@ -47,8 +47,8 @@ const Hire = () => {
   console.log(data);
 
   useEffect(() => {
-    let url = `http://localhost:3005/employee/${id}`;
-    let url2 = `http://localhost:3005/skill/${id}`;
+    let url = `${process.env.REACT_APP_BUILD_API}/employee/${id}`;
+    let url2 = `${process.env.REACT_APP_BUILD_API}/skill/${id}`;
     getData(url);
     getSkill(url2);
   }, []);
@@ -61,7 +61,7 @@ const Hire = () => {
     };
     try {
       const createHire = await axios.post(
-        `http://localhost:3005/hire/add/${id}`,
+        `${process.env.REACT_APP_BUILD_API}/hire/add/${id}`,
         formHire,
         auth
       );

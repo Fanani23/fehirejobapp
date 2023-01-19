@@ -65,10 +65,10 @@ const Profile = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3005/employee/${id}`;
-    let url2 = `http://localhost:3005/skill/${id}`;
-    let url3 = `http://localhost:3005/portofolio/${id}`;
-    let url4 = `http://localhost:3005/experience/${id}`;
+    let url = `${process.env.REACT_APP_BUILD_API}/employee/${id}`;
+    let url2 = `${process.env.REACT_APP_BUILD_API}/skill/${id}`;
+    let url3 = `${process.env.REACT_APP_BUILD_API}/portofolio/${id}`;
+    let url4 = `${process.env.REACT_APP_BUILD_API}/experience/${id}`;
     getData(url);
     getSkill(url2);
     getPorto(url3);

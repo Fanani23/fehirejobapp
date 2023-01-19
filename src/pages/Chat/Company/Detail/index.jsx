@@ -44,8 +44,8 @@ const ChatCompanyDetail = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3005/hire`;
-    let url2 = `http://localhost:3005/message/${id}`;
+    let url = `${process.env.REACT_APP_BUILD_API}/hire`;
+    let url2 = `${process.env.REACT_APP_BUILD_API}/message/${id}`;
     getData(url);
     getMessage(url2);
   }, []);

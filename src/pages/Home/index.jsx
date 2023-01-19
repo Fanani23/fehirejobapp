@@ -38,7 +38,7 @@ const Home = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3005/employee`;
+    let url = `${process.env.REACT_APP_BUILD_API}/employee`;
     if (limit !== "10") {
       url = `${url}?limit=${limit}`;
     } else {

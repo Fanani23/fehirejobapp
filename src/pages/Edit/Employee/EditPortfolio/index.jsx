@@ -36,7 +36,7 @@ const EditPortfolio = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3005/portofolio/${id}`;
+    let url = `${process.env.REACT_APP_BUILD_API}/portofolio/${id}`;
     getPortofolioById(url);
   }, []);
 
@@ -54,7 +54,7 @@ const EditPortfolio = () => {
       formPort.append("description", description);
       formPort.append("photo", photo);
       const updatePort = await axios.put(
-        `http://localhost:3005/portofolio/${id}`,
+        `${process.env.REACT_APP_BUILD_API}/portofolio/${id}`,
         formPort,
         auth,
         {

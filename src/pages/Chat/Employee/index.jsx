@@ -34,7 +34,7 @@ const ChatEmployee = () => {
   console.log("hire id", hire_id);
 
   useEffect(() => {
-    let url = `http://localhost:3005/hire`;
+    let url = `${process.env.REACT_APP_BUILD_API}/hire`;
     getData(url);
   }, []);
 

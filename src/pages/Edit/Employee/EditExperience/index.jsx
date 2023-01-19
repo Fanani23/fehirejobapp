@@ -39,7 +39,7 @@ const EditExperience = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3005/experience/${id}`;
+    let url = `${process.env.REACT_APP_BUILD_API}/experience/${id}`;
     getExperienceById(url);
   }, []);
 
@@ -54,7 +54,7 @@ const EditExperience = () => {
     };
     try {
       const updateExp = await axios.put(
-        `http://localhost:3005/experience/${id}`,
+        `${process.env.REACT_APP_BUILD_API}/experience/${id}`,
         formUpdateExp,
         auth
       );
