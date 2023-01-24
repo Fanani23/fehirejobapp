@@ -1,70 +1,164 @@
-# Getting Started with Create React App
+<br />
+<p align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">SEED HIRE APP</h3>
+  <p align="center">
+    <image align="center" width="200" src='./public/demo/logo.png' />
+  </p>
 
-## Available Scripts
+  <p align="center">
+    <br />
+    <a href="https://github.com/Fanani23/fehirejobapp.git"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://fehirejobapp.vercel.app/">View Demo</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Related Project](#related-project)
+- [Screenshot](#screenshot)
+- [Contact](#contact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+SEED Hire App is web base application used to looking for a job or recruit an employee. As an company account, can recruit someone to work with them. And as employee user, can search for a job using experience and protfolio. This application built with Node JS and React JS as frontend framework.
+This Application use Rest API server from [seedhireapp](https://behirejobapp.vercel.app/)
 
-### `npm run build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node JS](https://nodejs.org/en/docs/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is an example of how to list things you need to use the software and how to install them.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [nodejs](https://nodejs.org/en/download/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repo
 
-## Learn More
+```sh
+git clone https://github.com/Fanani23/fechatapps.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install NPM packages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm install
+```
 
-### Code Splitting
+3. Add .env file at root folder project, and add following
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+REACT_APP_BUILD_API = https://behirejobapp.vercel.app/ // or use your own
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- CONTRIBUTING -->
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Advanced Configuration
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b your/branch`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/yourbranch`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- SCREENSHOT -->
 
-### Deployment
+## Screenshot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+| Landing Page                                                 |
+| ------------------------------------------------------------ |
+| ![landing](/public/demo/landing.png?raw=true "Landing Page") |
 
-### `npm run build` fails to minify
+| Register Company Page                                                                   |
+| --------------------------------------------------------------------------------------- |
+| ![register-company](/public/demo/register-company.png?raw=true "Register Company Page") |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Register Employee Page                                                                     |
+| ------------------------------------------------------------------------------------------ |
+| ![register-employee](/public/demo/register-employee.png?raw=true "Register Employee Page") |
+
+| Login Company Page                                                             |
+| ------------------------------------------------------------------------------ |
+| ![login-company](/public/demo/login-company.png?raw=true "Login Company Page") |
+
+| Login Employee Page                                                               |
+| --------------------------------------------------------------------------------- |
+| ![login-employee](/public/demo/login-employee.png?raw=true "Login Employee Page") |
+
+| Forgot Page                                               |
+| --------------------------------------------------------- |
+| ![forgot](/public/demo/forgot.png?raw=true "Forgot Page") |
+
+| Home Page                                           |
+| --------------------------------------------------- |
+| ![home](/public/demo/home.png?raw=true "Home Page") |
+
+| Profile Company Page                                                                 |
+| ------------------------------------------------------------------------------------ |
+| ![profile-company](/public/demo/profile-company.png?raw=true "Profile Company Page") |
+
+| Check Employee Page                                                               |
+| --------------------------------------------------------------------------------- |
+| ![check-employee](/public/demo/check-employee.png?raw=true "Check Employee Page") |
+
+| Hire Page                                           |
+| --------------------------------------------------- |
+| ![hire](/public/demo/hire.png?raw=true "Hire Page") |
+
+| Profile Employee Page                                                                   |
+| --------------------------------------------------------------------------------------- |
+| ![profile-employee](/public/demo/profile-employee.png?raw=true "Profile Employee Page") |
+
+| Add Skill Page                                                     |
+| ------------------------------------------------------------------ |
+| ![add-skill](/public/demo/add-skill.png?raw=true "Add Skill Page") |
+
+| Add Experience Page                                                               |
+| --------------------------------------------------------------------------------- |
+| ![add-experience](/public/demo/add-experience.png?raw=true "Add Experience Page") |
+
+| Add Portfolio Page                                                             |
+| ------------------------------------------------------------------------------ |
+| ![add-portfolio](/public/demo/add-protfolio.png?raw=true "Add Portfolio Page") |
+
+| Profile Notification Employee Page                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------- |
+| ![profile-notification-employee](/public/demo/profile-notification.png?raw=true "Profile Notification Employee Page") |
+
+<!-- RELATED PROJECT -->
+
+## Related Project
+
+- [`Seed Hire App Demo`](https://fehirejobapp.vercel.app/)
+- [`Seed Hire App Rest API`](https://behirejobapp.vercel.app/)
+- [`Seed Hire App Rest API Repository`](https://github.com/Fanani23/fehirejobapp.git)
+
+<!-- CONTACT -->
+
+## Contact
+
+Contributors names and contact info
+
+- AUTHOR
+  - Pramudia Syahrul Fanani [@imoody](https://github.com/Fanani23/)
