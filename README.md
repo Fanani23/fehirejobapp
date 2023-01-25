@@ -162,3 +162,8 @@ Contributors names and contact info
 
 - AUTHOR
   - Pramudia Syahrul Fanani [@imoody](https://github.com/Fanani23/)
+  - Helmi Pradita [@helmi](https://github.com/helmipradita)
+  - Sri Yuniar [@sri](https://github.com/sriyuniar541)
+  - Alvin Jamal Azkya [@alvin](https://github.com/alvinjamal)
+  - Lidya Wati [@lidya](https://github.com/Lidiya135)
+  - Irfan [@irfan]
