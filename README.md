@@ -116,7 +116,7 @@ Contributions are what make the open source community such an amazing place to b
 
 | Profile Company Page                                                                |
 | ----------------------------------------------------------------------------------- |
-| ![profile-company](/public/demo/profil-company.jpg?raw=true "Profile Company Page") |
+| ![profile-company](/public/demo/profil-company.png?raw=true "Profile Company Page") |
 
 | Check Employee Page                                                               |
 | --------------------------------------------------------------------------------- |
@@ -128,7 +128,7 @@ Contributions are what make the open source community such an amazing place to b
 
 | Profile Employee Page                                                                  |
 | -------------------------------------------------------------------------------------- |
-| ![profile-employee](/public/demo/profil-employee.jpg?raw=true "Profile Employee Page") |
+| ![profile-employee](/public/demo/profil-employee.png?raw=true "Profile Employee Page") |
 
 | Add Skill Page                                                     |
 | ------------------------------------------------------------------ |
